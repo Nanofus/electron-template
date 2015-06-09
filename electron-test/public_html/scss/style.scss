@@ -1,0 +1,21 @@
+button {
+  -webkit-app-region: no-drag;
+}
+
+p {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
+#navbar {
+    height: 40px;
+    width: 100%;
+    background-color: #cccccc;
+}
+
+#window-buttons {
+    img {
+       float: right;
+       padding: 5px 2.5px; 
+    }
+}

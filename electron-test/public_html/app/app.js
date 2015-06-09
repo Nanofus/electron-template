@@ -1,0 +1,1 @@
+var electronTest = angular.module('electron-test', []);
