@@ -1,0 +1,1 @@
+var electronTemplate = angular.module('electron-template', []);
