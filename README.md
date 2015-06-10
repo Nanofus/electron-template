@@ -3,7 +3,9 @@
 Desktop app template using [Electron](https://github.com/atom/electron) with support for [AngularJS](https://github.com/angular/angular.js), [Bootstrap](https://github.com/twbs/bootstrap), [jQuery](https://github.com/jquery/jquery) and [jQuery UI](https://github.com/jquery/jquery-ui). CSS written in [SASS](https://github.com/sass/sass).
 
 Made originally for my personal use, but decided to share it after noticing people having trouble using scripts that require jQuery inside Electron. The trick is in `jqueryloader.js`, which is loaded first in `index.html`:
-```var $ = jQuery = require("./bower_components/jquery/dist/jquery.min.js");```
+```
+var $ = jQuery = require("./bower_components/jquery/dist/jquery.min.js");
+```
 
 Before running the template with Electron you have to install dependencies with [Bower](https://github.com/bower/bower) first (install Bower and run `$ bower install` in the `public_html` folder).
 
