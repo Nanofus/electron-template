@@ -1,7 +1,6 @@
 {
   "name": "electron-template",
   "version": "0.1.0",
-  "homepage": "https://github.com/Nanofus/electron-template",
   "ignore": [
     "**/.*",
     "node_modules",
