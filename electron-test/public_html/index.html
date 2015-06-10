@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="bower_components/angularjs/angular.min.js"></script>
         
@@ -19,9 +20,9 @@
         <div id="navbar"> 
             <div id="window-buttons">
                 <button class="btn btn-default" type="submit" ng-click="closeWindow()">Button</button>
-                <img ng-src="images/close.png" alt="Close" class="close" ng-click="closeWindow()" />
-                <img ng-src="images/maximize.png" alt="Maximize" class="maximize" ng-click="maximizeWindow()" />
-                <img ng-src="images/minimize.png" alt="Minimize" class="minimize" ng-click="minimizeWindow()" />
+                <div class="window-button" id="close" ng-click="closeWindow()"></div>
+                <div class="window-button" id="minimize" ng-click="maximizeWindow()"></div>
+                <div class="window-button" id="maximize" ng-click="minimizeWindow()"></div>
             </div>
         </div>
         <h1>Hello World!</h1>

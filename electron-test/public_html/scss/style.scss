@@ -1,10 +1,10 @@
 button {
-  -webkit-app-region: no-drag;
+    -webkit-app-region: no-drag;
 }
 
 p {
-  -webkit-user-select: none;
-  -webkit-app-region: drag;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
 }
 
 #navbar {
@@ -13,9 +13,22 @@ p {
     background-color: #cccccc;
 }
 
-#window-buttons {
-    img {
-       float: right;
-       padding: 5px 2.5px; 
-    }
+.window-button {
+    float: right;
+    padding: 5px 2.5px; 
+    width: 30px;
+    height: 30px;
+}
+
+#close {
+    background-image: url("../images/close.png");
+    background-color: #cccccc;
+}
+#minimize {
+    background-image: url("../images/minimize.png");
+    background-color: #cccccc;
+}
+#maximize {
+    background-image: url("../images/maximize.png");
+    background-color: #cccccc;
 }
