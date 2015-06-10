@@ -7,7 +7,7 @@ Made originally for my personal use, but decided to share it after noticing peop
 var $ = jQuery = require("./bower_components/jquery/dist/jquery.min.js");
 ```
 
-Before running the template with Electron you have to install dependencies with [Bower](https://github.com/bower/bower) first (install Bower and run `$ bower install` in the `public_html` folder).
+Before running the template with Electron you have to install dependencies with [Bower](https://github.com/bower/bower) (install Bower and run `$ bower install` in the `public_html` folder).
 
 ## Features
 * A frameless window
