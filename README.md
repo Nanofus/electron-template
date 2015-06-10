@@ -1,6 +1,6 @@
 # electron-template
 
-Desktop app template using [Electron](https://github.com/atom/electron) with support for [AngularJS](https://github.com/angular/angular.js), [Bootstrap](https://github.com/twbs/bootstrap), [jQuery](https://github.com/jquery/jquery) and [jQuery UI](https://github.com/jquery/jquery-ui). CSS written in [SASS](https://github.com/sass/sass).
+Desktop app template using [Electron](https://github.com/atom/electron) with support for [AngularJS](https://github.com/angular/angular.js), [Bootstrap](https://github.com/twbs/bootstrap), [jQuery](https://github.com/jquery/jquery) and [jQuery UI](https://github.com/jquery/jquery-ui). Stylesheet written in [SASS](https://github.com/sass/sass).
 
 Made originally for my personal use, but decided to share it after noticing people having trouble using scripts that require jQuery inside Electron. The trick is in `jqueryloader.js`, which is loaded first in `index.html`:
 ```
