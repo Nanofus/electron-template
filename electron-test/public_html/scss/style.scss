@@ -11,13 +11,15 @@ p {
     height: 40px;
     width: 100%;
     background-color: #cccccc;
+    -webkit-app-region: drag
 }
 
 .window-button {
     float: right;
-    padding: 5px 2.5px; 
+    margin: 5px 2.5px; 
     width: 30px;
     height: 30px;
+    -webkit-app-region: no-drag;
 }
 
 #close {
