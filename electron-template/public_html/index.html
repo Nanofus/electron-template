@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="electron-template" ng-controller="MainController">
+<html ng-app="electron-template">
     <head>
         <title>electron-template</title>
         <meta charset="UTF-8">
@@ -8,16 +8,19 @@
         <script type="text/javascript" src="app/jqueryloader.js"></script>
         <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="bower_components/angularjs/angular.min.js"></script>
+
         <script type="text/javascript" src="app/app.js"></script>
+        <script type="text/javascript" src="app/controllers/titlebar_controller.js"></script>
         <script type="text/javascript" src="app/controllers/main_controller.js"></script>
 
+        <link rel="stylesheet" type="text/css" href="css/titlebar.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
-    <body>
-        <div id="navbar"> 
+    <body ng-controller="MainController">
+        <div id="titlebar" ng-controller="TitlebarController"> 
             <div id="window-buttons">
                 <div class="window-button" id="close" ng-click="closeWindow()"></div>
-                <div class="window-button" id="maximize" ng-click="maximizeWindow()"></div>
+                <div class="window-button" id="maximize" ng-click="maximizeWindow()" ng-style="maximizeStyle"></div>
                 <div class="window-button" id="minimize" ng-click="minimizeWindow()"></div>
             </div>
         </div>

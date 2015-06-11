@@ -1,19 +1,3 @@
-electronTemplate.controller('MainController', function ($scope) {
-    var remote = require('remote');
+electronTemplate.controller('MainController', ['$scope', function($scope) {
 
-    $scope.closeWindow = function () {
-        remote.getCurrentWindow().close();
-    }
-
-    $scope.minimizeWindow = function () {
-        remote.getCurrentWindow().minimize();
-    }
-
-    $scope.maximizeWindow = function () {
-        if (!remote.getCurrentWindow().isMaximized()) {
-            remote.getCurrentWindow().maximize();
-        } else {
-            remote.getCurrentWindow().unmaximize();
-        }
-    }
-});
+}]);

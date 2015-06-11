@@ -1,5 +1,8 @@
 {
-  "name"    : "electron-template",
-  "version" : "0.1.0",
-  "main"    : "main.js"
+  "name": "electron-template",
+  "version": "0.1.0",
+  "main": "main.js",
+  "devDependencies": {
+    "electron-prebuilt": "^0.27.3"
+  }
 }
