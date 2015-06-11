@@ -9,6 +9,8 @@ Made originally for the author's personal use, but he decided to share it after 
 var $ = jQuery = require("./bower_components/jquery/dist/jquery.min.js");
 ```
 
+## Usage
+
 Before running the template you have to install Electron with [npm](https://www.npmjs.com/) and other dependencies with [Bower](https://github.com/bower/bower). Run these in the `public_html` folder after installing both of those:
 ```sh
 # Install Electron with npm
@@ -25,8 +27,9 @@ You also have to install a SASS compiler to compile the stylesheet sources, or s
 I hope this will be of some use to somebody! Pull requests are also more than welcome.
 
 ## Features
+
 * A frameless window
-* A custom title bar with a SASS stylesheet and simple buttons
+* A custom title bar with a SASS stylesheet and simple Windows-style buttons
 * jQuery, jQuery UI, Bootstrap, AngularJS support
 * Simple AngularJS app and controller included (the controller is used for the title bar buttons)
 * NetBeans project files
