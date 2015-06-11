@@ -7,7 +7,16 @@ Made originally for my personal use, but decided to share it after noticing peop
 var $ = jQuery = require("./bower_components/jquery/dist/jquery.min.js");
 ```
 
-Before running the template with Electron you have to install dependencies with [Bower](https://github.com/bower/bower) (install Bower and run `$ bower install` in the `public_html` folder).
+Before running the template you have to install Electron with [npm](https://www.npmjs.com/) and other dependencies with [Bower](https://github.com/bower/bower). Run these in the `public_html` folder after installing both of those:
+```
+# Install Electron with npm
+$ npm install
+
+# Install other dependencies with Bower
+$ bower install
+```
+
+Then you can run Electron with `$ electron` and drag `main.js` into the window.
 
 I hope this will be of some use to somebody!
 
